@@ -1,0 +1,31 @@
+->npm install formik
+->formik.values.name->formik automatic track the values
+=>Formik automatically execute onSubmit method,onSubmit automatic receives updated values
+
+validation rule=>formik third property is validate.It returns a object
+
+error messages
+visited field->values.touched
+
+npm install yup
+yup library->validationSchemaObjet
+----------------
+old to new form changes
+Reducing boilerplate
+
+ onChange={formik.handleChange}
+ onBlur={formik.handleBlur}
+ value={formik.values.name}   ----> replace to {...formik.getFieldProps('name')}
+
+ useFormik => Formik
+ 
+ parent div -> Formik
+
+ form->Form
+
+ input replace with Field
+
+
+  {formik.touched.name && formik.errors.name ? (
+            <div className="error">{formik.errors.name}</div>
+          ) : null}   --->
