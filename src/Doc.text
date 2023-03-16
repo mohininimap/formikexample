@@ -29,3 +29,18 @@ Reducing boilerplate
   {formik.touched.name && formik.errors.name ? (
             <div className="error">{formik.errors.name}</div>
           ) : null}   --->
+
+----------------
+dynamic form control to adding phone numbers
+FieldArray
+FastField ->is a optimized version of FieldArray.It internally implemented shouldComponentLifeCycle method block additional rerender
+-------
+When does validation runs
+formik auto populate errors.object
+validateOnChange={false}
+validateOnBlur={false} ->click outside
+validateField=>Field level
+validateField =>form level
+ setFieldTouched
+ setTouched
+26 Vedios completed 
