@@ -63,8 +63,9 @@ const YoutubeForm = () => {
         initialValues={initialValues}
         validationSchema={validationSchema}
         onSubmit={onSubmit}
-        validateOnChange={false}
-        validateOnBlur={false}
+        // validateOnMount
+        // validateOnChange={false}
+        // validateOnBlur={false}
       >
         {
           formik=>{
@@ -195,7 +196,9 @@ const YoutubeForm = () => {
             comments:true
           })}>Visit Fields</button>
 
-              <button type="submit">Submit</button>
+              {/* <button type="submit" disabled={!(formik.dirty && formik.isValid)}>Submit</button> */}
+              <button type="submit" disabled={!formik.isValid}>Submit</button>
+
             </Form>
             )
           }

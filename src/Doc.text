@@ -44,3 +44,53 @@ validateField =>form level
  setFieldTouched
  setTouched
 26 Vedios completed 
+-------
+submit button disable ->isValid Properties=>When all errors resolved submit button enabled
+validateOnMount=When page load error object already populated
+dirty properties=>At least one form field value change so it was initialize
+bootstrap install=>5.1.3
+
+rest opertaor=>combine karate hai
+
+useField=>name,value,onChange,onBlur
+meta=>value,error,touched,initialValue,initialTouched
+
+{...field} =>have value also
+
+validationSchema is a property hai formik ki
+validationSchema(validate)=>This validate come from Yup library
+
+onSubmit=>jo bhi value submit hone wali hai o yaha pe aayengi
+
+validation using yup 
+-------------------
+lodash is a utility library its provide utility functions
+It gives performance high
+----------------
+Lodash is a JavaScript library that works on the top of underscore.js. 
+It helps in working with arrays, strings, objects, numbers, etc. 
+It provides us with various inbuilt functions and uses a functional programming approach
+ which that coding in JavaScript easier to understand because instead of writing
+  repetitive functions, tasks can be accomplished with a single line of code.
+ It also makes it easier to work with objects in JavaScript 
+ if they require a lot of manipulation to be done upon them.
+ -----
+ What Is Lodash Used for in React
+Lodash is built around four main ideas:
+
+Elegance
+Simplicity
+Consistency
+Performance
+----------
+
+Lodash is “A modern JavaScript utility library delivering modularity,
+ performance & extras” (from Loadsh.com) Lodash can cover common manipulation programming for arrays, 
+objects, string, and collections using functional programming paradigm.
+----------------
+Why you should use Lodash
+I found Lodash is very useful when I handle nested array or objects.
+ By using functions supported by Lodash, you can chain the Lodash functions so you can perform complicated array or objects manipulations easily.
+ This can lead your code to have more modularity with less code when you need to deal with a complex data structure.
+ -----------
+ 
